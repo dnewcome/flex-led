@@ -1,0 +1,199 @@
+{
+  "uuid": "ef8d965a64b824cd1132e6d28de3ac8c",
+  "path": "Offline/led-flex",
+  "name": "led-flex",
+  "content": "",
+  "created_at": "2024-04-20 17:16:42",
+  "updated_at": "2024-04-20 20:02:56",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "534d9ff860afab3e87006127634d04dd",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fd475536e0d24a0c8b252cd22cc45f45": 1,
+        "38c0b15488e74e22937864658fe4c25d": 2,
+        "084942ca0ed84e599a38aac91efb3e85": 1,
+        "d4249fe8df194f80bd23c8df8c8b0a35": 1,
+        "65db3fff6048418294b692f75a19cf27": 2,
+        "92d97728056d4d31a3fd2d5df252f2ee": 1,
+        "07de58eace104b1a9fd45fc55ea6d56c": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1uF",
+          1,
+          "SMD-0805-CAPACITOR WK",
+          "C1",
+          {
+            "Manufacturer Part": "Resisitor MF25 470, 0.25W",
+            "Supplier Part": "934-1943",
+            "Supplier": "Element14",
+            "link": "http://www.farnell.com/datasheets/1716726.pdf?_ga=2.200856808.715801181.1515396489-258607356.1495180379",
+            "Contributor": "dennis dancun",
+            "spiceSymbolName": "KONDENSATOR SMD",
+            "puuid": "02fdf36c52e8468cbef63c7870c84f89",
+            "uuid": "084942ca0ed84e599a38aac91efb3e85"
+          }
+        ],
+        [
+          "JST-PH-4P/TOP/SMD",
+          1,
+          "JST-PH-4P-TOP/SMD",
+          "CON1",
+          {
+            "Contributor": "liaoqinyi",
+            "spiceSymbolName": "JST-PH-4P/TOP/SMD",
+            "Manufacturer Part": "",
+            "puuid": "ae9580baf1e94a8e80ed4ee3f7c3a8ed",
+            "uuid": "d4249fe8df194f80bd23c8df8c8b0a35"
+          }
+        ],
+        [
+          "5050RGBLED5050",
+          1,
+          "RGB-5050",
+          "LED1",
+          {
+            "Supplier Part": "C26544",
+            "Supplier": "LCSC",
+            "Manufacturer": "ReliaPro",
+            "Manufacturer Part": "5050RGBSMDLEDLamp beads 5050Bright red and blue",
+            "Contributor": "SitarUs",
+            "spiceSymbolName": "5050RGBLED5050",
+            "Package Display": "Yes",
+            "puuid": "0822b050dd8cd32459d9a9817d56dc49",
+            "uuid": "38c0b15488e74e22937864658fe4c25d"
+          }
+        ],
+        [
+          "5050RGBLED5050",
+          1,
+          "RGB-5050",
+          "LED2",
+          {
+            "Supplier Part": "C26544",
+            "Supplier": "LCSC",
+            "Manufacturer": "ReliaPro",
+            "Manufacturer Part": "5050RGBSMDLEDLamp beads 5050Bright red and blue",
+            "Contributor": "SitarUs",
+            "spiceSymbolName": "5050RGBLED5050",
+            "puuid": "0822b050dd8cd32459d9a9817d56dc49",
+            "uuid": "38c0b15488e74e22937864658fe4c25d"
+          }
+        ],
+        [
+          "68Ω",
+          2,
+          "R1210",
+          "R5,R6",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C473019",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Manufacturer Part": "1210W2J0680T5E",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "1210W2J0680T5E",
+            "puuid": "8d980e0cb4b8404e96542d2888a244bd",
+            "uuid": "65db3fff6048418294b692f75a19cf27"
+          }
+        ],
+        [
+          "1kΩ",
+          1,
+          "R1210",
+          "R7",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "RALEC(旺诠)",
+            "Manufacturer Part": "RTT12102JTP",
+            "Supplier Part": "C104959",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RTT12102JTP",
+            "puuid": "8d980e0cb4b8404e96542d2888a244bd",
+            "uuid": "92d97728056d4d31a3fd2d5df252f2ee"
+          }
+        ],
+        [
+          "220Ω",
+          1,
+          "R1210",
+          "R8",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C305056",
+            "Manufacturer": "RALEC(旺诠)",
+            "Manufacturer Part": "RTT122200FTP",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RTT122200FTP",
+            "puuid": "8d980e0cb4b8404e96542d2888a244bd",
+            "uuid": "07de58eace104b1a9fd45fc55ea6d56c"
+          }
+        ],
+        [
+          "UCS8903",
+          1,
+          "SOP-8_L5.0-W4.4-P1.27-LS6.2-BL",
+          "U1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "UCS8903",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "emil_rh",
+            "spiceSymbolName": "UCS8903",
+            "puuid": "81b6108d803342bbb33295e02cc40afc",
+            "uuid": "fd475536e0d24a0c8b252cd22cc45f45"
+          }
+        ]
+      ],
+      "updateTime": 1713665711,
+      "createTime": 1713658603,
+      "histories": [],
+      "created_at": "2024-04-20 17:16:43",
+      "updated_at": "2024-04-20 19:15:11"
+    },
+    {
+      "uuid": "9a8324b72434d63d414b531e7427410b",
+      "puuid": "ef8d965a64b824cd1132e6d28de3ac8c",
+      "title": "PCB_led-flex",
+      "filename": "PCB_led-flex.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "8d980e0cb4b8404e96542d2888a244bd": 4,
+        "02fdf36c52e8468cbef63c7870c84f89": 1,
+        "ae9580baf1e94a8e80ed4ee3f7c3a8ed": 1,
+        "0822b050dd8cd32459d9a9817d56dc49": 2,
+        "81b6108d803342bbb33295e02cc40afc": 1
+      },
+      "BOM": [],
+      "updateTime": 1713668576,
+      "createTime": 1713660800,
+      "histories": [],
+      "created_at": "2024-04-20 17:53:20",
+      "updated_at": "2024-04-20 20:02:56"
+    }
+  ],
+  "sort": [],
+  "title": "led-flex",
+  "foldername": "led-flex",
+  "schfilename": "led-flex.json",
+  "schfilemtime": 1713665711716
+}
